@@ -9,7 +9,10 @@ from models.verifier import VerifierInfo
 user = APIRouter()
 
 
-@user.get('/me', response_model=User, tags=["user"])
+@user.get('/me',
+          response_model=User,
+          response_model_exclude={"password"},
+          tags=["user"])
 async def current_user(current_user: User = Depends(get_current_user)):
     return current_user
 

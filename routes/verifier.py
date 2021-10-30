@@ -24,7 +24,10 @@ async def create_verifier(admin: Verifier):
     return {"success": False, "error": "UserName Already Exists"}
 
 
-@verifier.post('/login', response_model=Verifier, tags=["verifier"])
+@verifier.post('/login',
+               response_model=Verifier,
+               response_model_exclude={"password"},
+               tags=["verifier"])
 async def login_verifier(login: LoginVerifier):
     user = await db.verifiers.find_one({"username": login.username})
     if user:
@@ -37,7 +40,10 @@ async def login_verifier(login: LoginVerifier):
     raise HTTPException(status_code=401, detail="Username Does Not Exist")
 
 
-@verifier.get('/api/{api_key}', response_model=User, tags=["verifier"])
+@verifier.get('/api/{api_key}',
+              response_model=User,
+              response_model_include={"eKYCXML", "name", "dob", "gender"},
+              tags=["verifier"])
 async def fetch_user(api_key: str, vid: str):
     verifier = await db.verifiers.find_one({"api_key": api_key})
     if verifier:
