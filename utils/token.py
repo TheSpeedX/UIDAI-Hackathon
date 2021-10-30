@@ -7,7 +7,7 @@ from config.database import db
 import jwt
 
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="user/token")
 
 
 credentials_exception = HTTPException(
