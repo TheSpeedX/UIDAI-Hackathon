@@ -55,6 +55,7 @@ async def fetch_user(api_key: str, vid: str):
                 name=verifier.get("name"),
                 accessedAt=datetime.utcnow()
             )
+            vlog = dict(vlog)
             await db.access_logs.insert_one(vlog)
             return user
         return HTTPException(status_code=401, detail="User Does Not Exist")
