@@ -49,11 +49,12 @@ async def fetch_user(api_key: str, vid: str):
     if verifier:
         user = await db.users.find_one({"vid": vid})
         if user:
-            vlog = VerifierInfo()
-            vlog.vid = vid
-            vlog.api_key = api_key
-            vlog.name = verifier.get("name")
-            vlog.accessedAt = datetime.utcnow()
+            vlog = VerifierInfo(
+                vid=vid,
+                api_key=api_key,
+                name=verifier.get("name"),
+                accessedAt=datetime.utcnow()
+            )
             await db.access_logs.insert_one(vlog)
             return user
         return HTTPException(status_code=401, detail="User Does Not Exist")
