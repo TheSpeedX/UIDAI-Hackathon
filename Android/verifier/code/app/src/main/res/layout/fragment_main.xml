@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_fragment_container"
+    tools:context=".MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnOnlineAuthenticationUsingQr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_online_authentication_using_qr"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnOnlineAuthentication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_online_authentication" />
+
+        <Button
+            android:id="@+id/btnOfflineAuthentication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_offline_authentication"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnPerformStatelessMatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_stateless_match" />
+
+        <Button
+            android:id="@+id/btnDeviceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_device_info" />
+
+        <Button
+            android:id="@+id/btnPerformCheckLighting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_check_lighting" />
+
+        <Button
+            android:id="@+id/btnPerformDeviceCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_device_check" />
+
+        <TextView
+            android:id="@+id/radioHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/radio_grp_header" />
+
+        <RadioGroup
+            android:id="@+id/radio_grp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/stagingRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:checked="true"
+                android:text="@string/staging_env" />
+
+            <RadioButton
+                android:id="@+id/preProdRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/preProd_env" />
+
+            <RadioButton
+                android:id="@+id/prodRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prod_env" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/appDisclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="@string/app_disclaimer"
+        android:textSize="14sp" />
+</RelativeLayout>

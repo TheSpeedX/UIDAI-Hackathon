@@ -1,0 +1,355 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="in.gov.uidai.auasample"
+4    android:versionCode="1"
+5    android:versionName="1.14" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:6:5-81
+11-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:7:5-80
+12-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:8:5-67
+13-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:9:5-65
+14-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:9:22-62
+15
+16    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
+18        android:name="android.hardware.camera"
+18-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:25:9-47
+19        android:required="false" />
+19-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:26:9-33
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+21        android:name="android.hardware.camera.front"
+21-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
+22        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+22-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
+23    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+28        android:name="android.hardware.camera.flash"
+28-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+31        android:name="android.hardware.screen.landscape"
+31-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+34        android:name="android.hardware.wifi"
+34-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+36
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:5-79
+37-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:22-76
+38    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:5-68
+38-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:22-65
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+39-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+40
+41    <application
+41-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:11:5-104:19
+42        android:allowBackup="true"
+42-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:12:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\eb9e01633ffd91df4f8ad8eced85dc7a\core-1.2.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:hardwareAccelerated="false"
+45-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:13:9-44
+46        android:icon="@mipmap/ic_launcher"
+46-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:14:9-43
+47        android:label="@string/app_name"
+47-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:15:9-41
+48        android:networkSecurityConfig="@xml/network_security_config"
+48-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:16:9-69
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:17:9-54
+50        android:theme="@style/AppTheme" >
+50-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:18:9-40
+51        <activity
+51-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:20:9-22:40
+52            android:name="in.gov.uidai.auasample.uverifier.AdminMenu"
+52-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:21:13-48
+53            android:exported="false" />
+53-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:22:13-37
+54        <activity
+54-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:23:9-25:40
+55            android:name="in.gov.uidai.auasample.uverifier.FirstSignActivity"
+55-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:24:13-56
+56            android:exported="false" />
+56-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:25:13-37
+57        <activity
+57-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:26:9-28:40
+58            android:name="in.gov.uidai.auasample.uverifier.EkycDataActivity"
+58-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:27:13-55
+59            android:exported="false" />
+59-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:28:13-37
+60        <activity
+60-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:29:9-38:20
+61            android:name="in.gov.uidai.auasample.uverifier.Splashscreen"
+61-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:30:13-51
+62            android:screenOrientation="portrait" >
+62-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:31:13-49
+63            <intent-filter>
+63-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:33:13-37:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:34:17-69
+64-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:34:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:36:17-77
+66-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:36:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:39:9-41:40
+70            android:name="in.gov.uidai.auasample.uverifier.VidResponse"
+70-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:40:13-50
+71            android:exported="false" />
+71-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:41:13-37
+72        <activity
+72-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:42:9-44:40
+73            android:name="in.gov.uidai.auasample.uverifier.VidScreen"
+73-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:43:13-48
+74            android:exported="false" />
+74-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:44:13-37
+75        <activity
+75-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:45:9-47:40
+76            android:name="in.gov.uidai.auasample.uverifier.Menu"
+76-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:46:13-43
+77            android:exported="false" />
+77-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:47:13-37
+78        <activity
+78-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:48:9-50:40
+79            android:name="in.gov.uidai.auasample.uverifier.CapchaActivity"
+79-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:49:13-53
+80            android:exported="false" />
+80-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:50:13-37
+81        <activity
+81-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:51:9-53:40
+82            android:name="in.gov.uidai.auasample.uverifier.EnterOtp"
+82-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:52:13-47
+83            android:exported="false" />
+83-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:53:13-37
+84        <activity
+84-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:54:9-57:56
+85            android:name="in.gov.uidai.auasample.MainActivity"
+85-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:55:13-41
+86            android:screenOrientation="portrait" />
+86-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:56:13-49
+87        <activity
+87-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:58:9-61:56
+88            android:name="in.gov.uidai.auasample.online.authenticate.AuthenticateUsingFaceActivity"
+88-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:59:13-78
+89            android:screenOrientation="portrait" />
+89-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:60:13-49
+90        <activity
+90-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:62:9-65:56
+91            android:name="in.gov.uidai.auasample.checkLighting.CheckLightingActivity"
+91-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:63:13-64
+92            android:screenOrientation="portrait" />
+92-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:64:13-49
+93        <activity
+93-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:66:9-69:56
+94            android:name="in.gov.uidai.auasample.deviceCheck.DeviceCheckActivity"
+94-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:67:13-60
+95            android:screenOrientation="portrait" />
+95-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:68:13-49
+96        <activity
+96-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:70:9-73:56
+97            android:name="in.gov.uidai.auasample.online.register.RegisterUsingFaceActivity"
+97-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:71:13-70
+98            android:screenOrientation="portrait" />
+98-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:72:13-49
+99        <activity
+99-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:74:9-77:56
+100            android:name="in.gov.uidai.auasample.offline.OfflineFlowActivity"
+100-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:75:13-56
+101            android:screenOrientation="portrait" />
+101-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:76:13-49
+102        <activity
+102-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:78:9-81:56
+103            android:name="in.gov.uidai.auasample.ResultActivity"
+103-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:79:13-43
+104            android:screenOrientation="portrait" />
+104-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:80:13-49
+105        <activity
+105-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:82:9-85:56
+106            android:name="in.gov.uidai.auasample.online.qr.ScanQRActivity"
+106-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:83:13-53
+107            android:screenOrientation="portrait" />
+107-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:84:13-49
+108        <activity
+108-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:86:9-89:56
+109            android:name="in.gov.uidai.auasample.deviceInfo.DeviceInfoActivity"
+109-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:87:13-58
+110            android:screenOrientation="portrait" />
+110-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:88:13-49
+111        <activity
+111-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:90:9-93:56
+112            android:name="in.gov.uidai.auasample.stateless.match.StatelessMatchActivity"
+112-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:91:13-67
+113            android:screenOrientation="portrait" />
+113-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:92:13-49
+114
+115        <provider
+115-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:95:9-103:20
+116            android:name="androidx.core.content.FileProvider"
+116-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:96:13-62
+117            android:authorities="in.gov.uidai.auasample.fileprovider"
+117-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:97:13-70
+118            android:exported="false"
+118-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:98:13-37
+119            android:grantUriPermissions="true" >
+119-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:99:13-47
+120            <meta-data
+120-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:100:13-102:53
+121                android:name="android.support.FILE_PROVIDER_PATHS"
+121-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:101:17-67
+122                android:resource="@xml/file_path" />
+122-->E:\uidai\faceRD-SDK\demo\code\app\src\main\AndroidManifest.xml:102:17-50
+123        </provider>
+124
+125        <activity
+125-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+126            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+126-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+127            android:clearTaskOnLaunch="true"
+127-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+128            android:screenOrientation="sensorLandscape"
+128-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+129            android:stateNotNeeded="true"
+129-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+130            android:theme="@style/zxing_CaptureTheme"
+130-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+131            android:windowSoftInputMode="stateAlwaysHidden" />
+131-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\260826c06e1c7c77a0ed41f9bdbc828b\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+132
+133        <service
+133-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63443e7441778515c7b50605d7949eff\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:13:9-19:19
+134            android:name="com.google.firebase.components.ComponentDiscoveryService"
+134-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63443e7441778515c7b50605d7949eff\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:14:13-84
+135            android:directBootAware="true"
+135-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\db94ae4e603bc333161102a1ba786b04\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+136            android:exported="false" >
+136-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63443e7441778515c7b50605d7949eff\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:15:13-37
+137            <meta-data
+137-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63443e7441778515c7b50605d7949eff\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:16:13-18:85
+138                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+138-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63443e7441778515c7b50605d7949eff\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:17:17-115
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\63443e7441778515c7b50605d7949eff\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:18:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+141                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+141-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\de1ec649278ccb28f78d3c16bb5f4333\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+144                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+144-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\de1ec649278ccb28f78d3c16bb5f4333\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\de1ec649278ccb28f78d3c16bb5f4333\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+146        </service>
+147
+148        <receiver
+148-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+149            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+149-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+150            android:exported="true"
+150-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+151            android:permission="com.google.android.c2dm.permission.SEND" >
+151-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+152            <intent-filter>
+152-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+153                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+153-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+153-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\351b6cfd6cce6c1f6f0f7f18686ce2ec\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+154            </intent-filter>
+155        </receiver>
+156
+157        <provider
+157-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\db94ae4e603bc333161102a1ba786b04\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+158            android:name="com.google.firebase.provider.FirebaseInitProvider"
+158-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\db94ae4e603bc333161102a1ba786b04\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+159            android:authorities="in.gov.uidai.auasample.firebaseinitprovider"
+159-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\db94ae4e603bc333161102a1ba786b04\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+160            android:exported="false"
+160-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\db94ae4e603bc333161102a1ba786b04\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+161            android:initOrder="100" />
+161-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\db94ae4e603bc333161102a1ba786b04\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+162
+163        <activity
+163-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\96562225689a3ac9500e579fd13437b2\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+164            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+164-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\96562225689a3ac9500e579fd13437b2\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+165            android:exported="false"
+165-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\96562225689a3ac9500e579fd13437b2\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+166-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\96562225689a3ac9500e579fd13437b2\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\aad8738f7beecd0bfc181466ed636be3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\aad8738f7beecd0bfc181466ed636be3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\aad8738f7beecd0bfc181466ed636be3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+171
+172        <service
+172-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\64559506593e74954a2b536cbdcd3942\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:29:9-35:19
+173            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\64559506593e74954a2b536cbdcd3942\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:30:13-103
+174            android:exported="false" >
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\64559506593e74954a2b536cbdcd3942\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:31:13-37
+175            <meta-data
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\64559506593e74954a2b536cbdcd3942\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:32:13-34:39
+176                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\64559506593e74954a2b536cbdcd3942\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:33:17-94
+177                android:value="cct" />
+177-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\64559506593e74954a2b536cbdcd3942\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:34:17-36
+178        </service>
+179        <service
+179-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\214fba3328a281a68a594a59bb87ead2\jetified-transport-runtime-2.2.1\AndroidManifest.xml:26:9-30:19
+180            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+180-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\214fba3328a281a68a594a59bb87ead2\jetified-transport-runtime-2.2.1\AndroidManifest.xml:27:13-117
+181            android:exported="false"
+181-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\214fba3328a281a68a594a59bb87ead2\jetified-transport-runtime-2.2.1\AndroidManifest.xml:28:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" >
+182-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\214fba3328a281a68a594a59bb87ead2\jetified-transport-runtime-2.2.1\AndroidManifest.xml:29:13-69
+183        </service>
+184
+185        <receiver
+185-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\214fba3328a281a68a594a59bb87ead2\jetified-transport-runtime-2.2.1\AndroidManifest.xml:32:9-34:40
+186            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+186-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\214fba3328a281a68a594a59bb87ead2\jetified-transport-runtime-2.2.1\AndroidManifest.xml:33:13-132
+187            android:exported="false" />
+187-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\214fba3328a281a68a594a59bb87ead2\jetified-transport-runtime-2.2.1\AndroidManifest.xml:34:13-37
+188    </application>
+189
+190</manifest>

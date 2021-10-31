@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/configRootView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/aua_code_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/aua_code"
+                style="@style/InputFieldEditText"
+                android:hint="AUA Code*" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/aua_license_key_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/aua_license_key"
+                style="@style/InputFieldEditText"
+                android:hint="AUA License Key*"
+                android:lines="2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/asa_code_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/asa_code"
+                style="@style/InputFieldEditText"
+                android:hint="ASA Code*" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/asa_license_key_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/asa_license_key"
+                style="@style/InputFieldEditText"
+                android:hint="ASA License Key*"
+                android:lines="2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sub_aua_code_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/sub_aua_code"
+                style="@style/InputFieldEditText"
+                android:hint="Sub-AUA Code*" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/auth_url_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/auth_url"
+                style="@style/InputFieldEditText"
+                android:hint="Auth URL*" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ekyc_url_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ekyc_url"
+                style="@style/InputFieldEditText"
+                android:hint="eKYC URL*" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signing_cert_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signing_cert"
+                style="@style/InputFieldEditText"
+                android:hint="UIDAI Signing Certificate*"
+                android:lines="4"
+                android:scrollbars="vertical" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/aua_signing_p12_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/aua_signing_p12"
+                style="@style/InputFieldEditText"
+                android:drawableEnd="@drawable/ic_baseline_attach_file_24"
+                android:hint="AUA Signing (p12)*"
+                android:lines="2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/p12_password_layout"
+            style="@style/InputFieldLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/p12_password"
+                style="@style/InputFieldEditText"
+                android:hint="P12 Password*" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/save_Configs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Save Config" />
+
+        <Button
+            android:id="@+id/reset_Configs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Reset Config" />
+    </LinearLayout>
+</ScrollView>

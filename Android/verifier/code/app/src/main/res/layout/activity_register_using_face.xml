@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llRootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".online.register.RegisterUsingFaceActivity">
+
+    <com.google.android.material.textfield.TextInputLayout style="@style/InputFieldLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTransactionId"
+            style="@style/InputFieldEditText"
+            android:hint="@string/text_transaction_id"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout style="@style/InputFieldLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtDomainId"
+            style="@style/InputFieldEditText"
+            android:hint="@string/text_domain_id"
+             android:text="PDS-3100"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout style="@style/InputFieldLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtName"
+            style="@style/InputFieldEditText"
+            android:hint="@string/text_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout style="@style/InputFieldLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtUid"
+            style="@style/InputFieldEditText"
+            android:hint="@string/text_uid"
+            android:inputType="numberPassword"
+            android:maxLength="12" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnRegisterUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:enabled="false"
+        android:text="@string/text_proceed" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvCaptureFlowResult"
+                style="@style/LogWithStatusTextView"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/llEkycDownloadStatusRoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <ProgressBar
+                    android:layout_width="@dimen/log_view_status_size"
+                    android:layout_height="@dimen/log_view_status_size" />
+
+                <TextView
+                    style="@style/BaseLogTextView"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_pls_wait_fetching_ekyc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvEkycDownloadResult"
+                style="@style/LogWithStatusTextView"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvRegisterFlowResult"
+                style="@style/LogWithStatusTextView"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/btnDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:visibility="gone"
+                android:text="@string/text_okay" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
