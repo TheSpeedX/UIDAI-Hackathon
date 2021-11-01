@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/auto_capture"
+        android:checkable="true"
+        android:title="Auto-Capture" />
+
+    <item
+        android:id="@+id/set_language"
+        android:title="@string/language" />
+    <item
+        android:id="@+id/staging_config"
+        android:title="@string/staging_config" />
+    <item
+        android:id="@+id/preprod_config"
+        android:title="@string/preprod_config" />
+    <item
+        android:id="@+id/prod_config"
+        android:title="@string/prod_config" />
+
+</menu>

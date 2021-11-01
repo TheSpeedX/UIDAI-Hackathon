@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\menu_option_menu.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\menu\\option_menu.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_code_scanner_flash_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-mdpi\\ic_code_scanner_flash_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_code_scanner_auto_focus_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_code_scanner_auto_focus_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_register_request.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\dialog_register_request.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vid_response.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_vid_response.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_corners.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\round_corners.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_first_sign.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_first_sign.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_checkmark.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_checkmark.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_check.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_device_check.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_qr_code_scanner_24.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\ic_baseline_qr_code_scanner_24.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_menu.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_admin_menu.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_rect.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\shape_rect.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_code_scanner_flash_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-hdpi\\ic_code_scanner_flash_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_code_scanner_auto_focus_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xhdpi\\ic_code_scanner_auto_focus_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_checkmark.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_checkmark.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dialog_ekyc.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\fragment_dialog_ekyc.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_code_scanner_auto_focus_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-hdpi\\ic_code_scanner_auto_focus_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enter_otp.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_enter_otp.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_code_scanner_flash_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xhdpi\\ic_code_scanner_flash_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_success.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\ic_success.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_code_scanner_flash_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xhdpi\\ic_code_scanner_flash_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_code_scanner_auto_focus_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxhdpi\\ic_code_scanner_auto_focus_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_code_scanner_flash_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-hdpi\\ic_code_scanner_flash_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_checkmark.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_checkmark.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_using_face.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_register_using_face.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dialog_input.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\fragment_dialog_input.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_result.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_attach_file_24.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\ic_baseline_attach_file_24.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_path.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\xml\\file_path.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\raw_publicmay.p12.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\raw\\publicmay.p12"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_language_change.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\fragment_language_change.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_log_view_status_selector.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\selector_log_view_status_selector.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\raw_brnkey.p12.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\raw\\brnkey.p12"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_code_scanner_flash_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxhdpi\\ic_code_scanner_flash_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_code_scanner_flash_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-mdpi\\ic_code_scanner_flash_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_code_scanner_auto_focus_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxhdpi\\ic_code_scanner_auto_focus_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_code_scanner_flash_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_code_scanner_flash_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\raw_lock_animation.json.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\raw\\lock_animation.json"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_checkmark.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_checkmark.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_checkmark.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_checkmark.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_config_settings.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\dialog_config_settings.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_success_circle.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\ic_success_circle.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan_qr.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_scan_qr.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_info.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_device_info.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_code_scanner_flash_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxhdpi\\ic_code_scanner_flash_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authenticate_face.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_authenticate_face.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_match_request.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\dialog_match_request.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ekyc_data.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_ekyc_data.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_code_scanner_auto_focus_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-mdpi\\ic_code_scanner_auto_focus_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stateless_match.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_stateless_match.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_code_scanner_auto_focus_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_code_scanner_auto_focus_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_code_scanner_auto_focus_off.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xhdpi\\ic_code_scanner_auto_focus_off.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_code_scanner_auto_focus_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-hdpi\\ic_code_scanner_auto_focus_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_checkmark.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_checkmark.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_capcha.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_capcha.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_checkmark.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_checkmark.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_failure_circle.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\ic_failure_circle.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_check_lighting.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_check_lighting.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vid_screen.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_vid_screen.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_offline_flow.xml.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\layout\\activity_offline_flow.xml"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_code_scanner_auto_focus_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-mdpi\\ic_code_scanner_auto_focus_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_code_scanner_flash_on.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_code_scanner_flash_on.png"
+    },
+    {
+        "merged": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fail.png.flat",
+        "source": "E:\\uidai\\faceRD-SDK\\demo\\code\\app\\src\\main\\res\\drawable\\ic_fail.png"
+    }
+]

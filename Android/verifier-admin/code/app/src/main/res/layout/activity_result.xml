@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCaptureFlowResult"
+                style="@style/LogWithStatusTextView"
+                android:gravity="center_vertical"
+                android:text="hi man"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/llEkycDownloadStatusRoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <ProgressBar
+                    android:layout_width="@dimen/log_view_status_size"
+                    android:layout_height="@dimen/log_view_status_size" />
+
+                <TextView
+                    style="@style/BaseLogTextView"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_pls_wait_fetching_ekyc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvEkycDownloadResult"
+                style="@style/LogWithStatusTextView"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvUserName"
+                style="@style/BaseLogTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivUserImg"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:visibility="gone"
+                tools:ignore="contentDescription" />
+
+            <Button
+                android:id="@+id/btnDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/text_okay"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

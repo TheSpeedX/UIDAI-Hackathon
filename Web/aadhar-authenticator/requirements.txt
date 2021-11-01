@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+motor
+dnspython
+bcrypt
+passlib
+pyjwt
+python-multipart
+httpx
+python-dotenv
