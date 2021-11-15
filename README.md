@@ -47,7 +47,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">ScreenShots</a></li>
+    <li><a href="#screenshots">ScreenShots</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -91,13 +91,26 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-- fork the repo using 
+- Clone the repo using 
 ```sh
 git clone https://github.com/TheSpeedX/UIDAI-Hackathon.git
 ```
 
-- Headover to the Web folder for Web Development project and start the host it on a server to use its APIs.
-- Clone the Android Project and import it into android studio and build it to get the .apk file.
+- Web
+  - Aadhar Authenticator
+  ```sh
+  pip install -r requirements.txt
+  uvicorn main:app 
+  ```
+  - POC IRCTC APP API
+  ```sh
+  npm install
+  npm start
+  ```
+- Android
+  - UVerifier
+  - POC IRCTC APP
+  - Verifier Admin
 
 
 
