@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/TheSpeedX/UIDAI-Hackathon">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">UVerifier</h3>
@@ -63,7 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![](assets/1.png)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -88,6 +88,7 @@ This section should list any major frameworks that you built your project using.
 
 <!-- GETTING STARTED -->
 ## Getting Started
+![](assets/4.png)
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -102,15 +103,22 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+- fork the repo using 
+```sh
+git clone https://github.com/TheSpeedX/UIDAI-Hackathon.git
+```
+
+- Headover to the Web folder for Web Development project and start the host it on a server to use its APIs.
+- Clone the Android Project and import it into android studio and build it to get the .apk file.
+
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Screenshots
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+![](assets/7.png)  
+![](assets/8.png)
 
 
 <!-- ROADMAP -->
@@ -143,7 +151,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - Team X-Legion Coders(UIDAI Hackathon 2021)
 
 Project Link: [https://github.com/TheSpeedX/UIDAI-Hackathon](https://github.com/TheSpeedX/UIDAI-Hackathon)
 
