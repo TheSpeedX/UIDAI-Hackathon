@@ -58,6 +58,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This is the UVerifier System for smoothing Check-In/Booking experience for end clients. The system consists of two applications first the AadharVerifier and The POC IRCTC Client App. 
 
 ![](assets/1.png)
 
