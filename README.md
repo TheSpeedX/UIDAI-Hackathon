@@ -108,48 +108,9 @@ git clone https://github.com/TheSpeedX/UIDAI-Hackathon.git
   npm start
   ```
 - Android
-
-### Dependencies
-#### Project level 
-
-  classpath "com.android.tools.build:gradle:7.0.0"  
-  classpath 'com.google.gms:google-services:4.3.10'  
-  
-#### App level
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
-    implementation files('libs/zip4j-2.9.0.jar')
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    def lottieVersion = "3.4.0"
-    implementation "com.airbnb.android:lottie:$lottieVersion"
-
-### Libraries Used
-Apart from the base required libraries from android studio
-
--   [Foundation](https://developer.android.com/jetpack/components)  - Components for core system capabilities and support for multidex and automated testing.
-    -   [AppCompat](https://developer.android.com/topic/libraries/support-library/packages#v7-appcompat)  - Degrade gracefully on older versions of Android.
-    -   [Test](https://developer.android.com/training/testing/)  - An Android testing framework for unit and runtime UI tests.
--   [Architecture](https://developer.android.com/jetpack/arch/)  - A collection of libraries that help you design robust, testable, and maintainable apps. Start with classes for managing your UI component lifecycle and handling data persistence.
-    -   [Data Binding](https://developer.android.com/topic/libraries/data-binding/)  - Declaratively bind observable data to UI elements.
-    -   [Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle)  - Create a UI that automatically responds to lifecycle events.
-       -   [Threads](https://developer.android.com/reference/java/lang/Thread)  - For multithreading, Doing synchronous activities like loading images 
-    -   [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)  - Build data objects that notify views when the underlying database changes.
-    -   [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/)  - Handle everything needed for in-app navigation.
-
-    -   [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)  - Store UI-related data that isn't destroyed on app rotations. Easily schedule asynchronous tasks for optimal execution.
-    -   [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)  - Manage your Android background jobs.
--   [UI](https://developer.android.com/guide/topics/ui)  - Details on why and how to use UI Components in your apps - together or separate
-    -   [Animations & Transitions](https://developer.android.com/training/animation/)  - Move widgets and transition between screens.
-     -   [Recycler View](https://developer.android.com/guide/topics/ui/layout/recyclerview)  - Move widgets and transition between screens.
-    -   [Fragment](https://developer.android.com/guide/components/fragments)  - A basic unit of composable UI.
-    -   [Layout](https://developer.android.com/guide/topics/ui/declaring-layout)  - Lay out widgets using different algorithms.
-   -   Third party and miscellaneous libraries
-    -   [Firabse](https://firebase.google.com/): for  [Real time database](https://firebase.google.com/docs/database)
-    -   [Lottie files](https://lottiefiles.com/)  To use lottie file, json formated animations
-
+  - UVerifier
+  - POC IRCTC APP
+  - Verifier Admin
 
 
 
