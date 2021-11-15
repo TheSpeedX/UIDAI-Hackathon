@@ -86,8 +86,9 @@ This UVerifier system consist of two application systems
 ## Getting Started
 ![](assets/4.png)
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The UVerifer system is a two part application consisting of :
+- Aadhar Authenticator
+- POC IRCTC App
 
 ### Installation
 
