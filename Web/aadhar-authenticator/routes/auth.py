@@ -35,6 +35,8 @@ async def create_user(user: User):
 async def login_user(login: LoginUser):
     user = await db.users.find_one({"username": login.username})
     if user:
+        if not user.get("isActive", True):
+            raise HTTPException(status_code=403, detail="Account is inactive")
         if verify_password(login.password, user.get("password")):
             await db.users.find_one_and_update(
                 {"username": login.username},
@@ -67,6 +69,8 @@ async def refresh_token(
 async def get_token(login: OAuth2PasswordRequestForm = Depends()):
     user = await db.users.find_one({"username": login.username})
     if user:
+        if not user.get("isActive", True):
+            raise HTTPException(status_code=403, detail="Account is inactive")
         if verify_password(login.password, user.get("password")):
             await db.users.find_one_and_update(
                 {"username": login.username},
